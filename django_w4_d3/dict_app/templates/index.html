@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="word" method="post">
+    {% csrf_token %}
+    <input type="text" name="search" placeholder="enter your word here">
+    <button type="submit">search</button>
+</form>
+</body>
+</html>
